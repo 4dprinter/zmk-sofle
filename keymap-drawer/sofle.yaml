@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  LAYER0:
+  home:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -54,18 +54,18 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:mouse-right-click-outline$$
-  - '2'
+  - numpad
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: layer_1}
+  - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  layer_1:
+  nav:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -73,12 +73,12 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - {t: F1, h: F7}
+  - {t: F2, h: F8}
+  - {t: F3, h: F9}
+  - {t: F4, h: F10}
+  - {t: F5, h: F11}
+  - {t: F6, h: F12}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - $$mdi:progress-download$$
@@ -126,11 +126,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', h: '2'}
+  - {t: '$$mdi:backspace$$', h: numpad}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  numpad:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
