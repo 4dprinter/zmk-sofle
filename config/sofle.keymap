@@ -50,7 +50,7 @@
 &mkp RCLK  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &kp SPACE    &mkp LCLK        &kp SPACE  &lt 2 SPACE  &kp ENTER  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings = <&scroll_encoder>;
             display-name = "LAYER0";
         };
 
@@ -63,7 +63,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp DELETE       &kp BACKSPACE    &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "layer_1";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
