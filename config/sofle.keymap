@@ -76,7 +76,7 @@
 &trans       &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans        &kp COMMA     &kp NUMBER_0  &kp DOT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AL_NEXT_TASK C_AL_PREVIOUS_TASK>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_3 {
