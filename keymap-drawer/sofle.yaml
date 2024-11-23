@@ -140,9 +140,9 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
-  - F8
-  - F9
-  - F10
+  - KP SLASH
+  - '*'
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -155,7 +155,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - _
+  - +
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
@@ -182,7 +182,7 @@ layers:
   - '2'
   - '3'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
