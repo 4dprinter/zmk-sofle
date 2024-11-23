@@ -90,10 +90,12 @@
 
             sensor-bindings = <&scroll_encoder>;
         };
+    };
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        tri_layer {
+
+        layer_3 {
             if-layers = <1 2>;
             then-layer = <3>;
         };
