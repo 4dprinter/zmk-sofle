@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&td_caps'
   - A
   - S
   - D
@@ -105,7 +105,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - RGB BRI
   - RGB SPI
@@ -116,7 +116,7 @@ layers:
   - RGB HUD
   - RGB SPD
   - RGB BRD
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
