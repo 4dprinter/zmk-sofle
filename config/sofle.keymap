@@ -67,7 +67,7 @@
 &trans        &bt BT_CLR       &bootloader      &sys_reset       &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN  &kp PG_UP        &kp HOME         &kp UP           &kp END          &kp MINUS         &kp EQUAL
 &trans        &kp TILDE        &trans           &trans           &trans           &mkp MB5           &mkp MB4        &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans        &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI    &mkp MB5        &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG   &trans
-&kp C_MUTE    &trans           &trans           &trans           &trans           &trans             &mkp MB2        &kp DELETE       &lt 2 BACKSPACE  &trans           &trans           &trans
+&kp C_MUTE    &trans           &trans           &trans           &trans           &trans             &mkp MB2        &kp BACKSPACE    &lt 2 DELETE     &trans           &trans           &trans
             >;
 
             display-name = "nav";
