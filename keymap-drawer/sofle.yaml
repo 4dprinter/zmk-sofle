@@ -58,10 +58,10 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: nav}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -138,8 +138,8 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP SLASH
   - '*'
   - {t: '-', s: _}
@@ -181,14 +181,14 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
+  - {t: '=', s: +}
   - MUTE
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -253,7 +253,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
