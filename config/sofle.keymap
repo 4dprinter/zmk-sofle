@@ -63,9 +63,9 @@
 
         layer_1 {
             bindings = <
-&out OUT_TOG  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP    &mt F7 F1        &mt F8 F2        &mt F9 F3        &mt F10 F4       &mt F11 F5        &mt F12 F6
-&sys_reset    &bt BT_CLR       &bootloader      &sys_reset       &trans           &trans             &mmv MOVE_DOWN  &kp PG_UP        &kp HOME         &kp UP           &kp END          &kp MINUS         &kp EQUAL
-&bootloader   &trans           &trans           &trans           &trans           &trans             &mkp MB4        &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&out OUT_TOG  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP    &trans           &trans           &trans           &trans           &kp MINUS         &kp EQUAL
+&sys_reset    &bt BT_CLR       &bootloader      &sys_reset       &trans           &trans             &mmv MOVE_DOWN  &kp PG_UP        &kp HOME         &kp UP           &kp END          &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&bootloader   &trans           &trans           &trans           &trans           &trans             &mkp MB4        &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &trans            &trans
 &trans        &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI    &mkp MB5        &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG   &trans
 &kp C_MUTE    &trans           &trans           &trans           &trans           &trans             &mkp MB2        &kp BACKSPACE    &lt 2 DELETE     &trans           &trans           &trans
             >;
@@ -76,10 +76,10 @@
 
         layer_2 {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans        &kp KP_SLASH  &kp ASTERISK  &kp MINUS  &kp MINUS
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &kp PLUS
+&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans        &kp KP_SLASH  &kp ASTERISK  &kp MINUS  &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &trans
 &trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LBRC   &kp RBRC
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
 &kp K_MUTE  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans        &kp COMMA     &kp NUMBER_0  &kp DOT
             >;
 
@@ -89,11 +89,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
