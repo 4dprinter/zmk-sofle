@@ -66,17 +66,17 @@
 &mkp LCLK       &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 DELETE    &mkp RCLK        &lt 2 BACKSPACE  &lt 1 SPACE  &kp RGUI   &kp RALT  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             display-name = "home";
         };
 
         layer_1 {
             bindings = <
-&mt F1 F6   &mt F2 F7  &mt F3 F8  &mt F4 F10  &mt F5 F11  &mt F6 F12    &trans  &trans         &trans          &trans          &trans           &kp MINUS         &kp EQUAL
-&trans      &trans     &trans     &trans      &trans      &trans        &trans  &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp LEFT_BRACKET  &kp RBKT
-&trans      &trans     &trans     &trans      &trans      &trans        &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans
-&trans      &trans     &trans     &trans      &trans      &trans        &trans  &trans         &trans          &trans          &trans           &trans            &trans
-&kp K_MUTE  &trans     &trans     &trans      &trans      &trans        &trans  &trans         &trans          &trans          &trans           &trans
+&mt F1 F6   &mt F2 F7  &mt F3 F8  &mt F4 F10  &mt F5 F11  &mt F6 F12    &msc SCRL_UP     &trans         &trans          &trans          &trans           &kp MINUS         &kp EQUAL
+&trans      &trans     &trans     &trans      &trans      &trans        &msc SCRL_DOWN   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp LEFT_BRACKET  &kp RBKT
+&trans      &trans     &trans     &trans      &trans      &trans        &msc SCRL_LEFT   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans
+&trans      &trans     &trans     &trans      &trans      &trans        &msc SCRL_RIGHT  &trans         &trans          &trans          &trans           &trans            &trans
+&kp K_MUTE  &trans     &trans     &trans      &trans      &trans        &trans           &trans         &trans          &trans          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
