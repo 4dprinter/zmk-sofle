@@ -71,7 +71,7 @@ layers:
   - {t: F10, h: F4}
   - {t: F11, h: F5}
   - {t: F12, h: F6}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - PgUp
   - HOME
   - $$mdi:arrow-up-bold$$
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-left$$
   - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -110,7 +110,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
