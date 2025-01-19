@@ -63,7 +63,7 @@
 &kp TAB         &kp Q      &kp W         &kp E             &kp R        &kp T           &mmv MOVE_DOWN   &kp Y            &kp U        &kp I      &kp O     &kp P      &kp BSLH
 &td_caps        &kp A      &kp S         &kp D             &kp F        &kp G           &mmv MOVE_LEFT   &kp H            &kp J        &kp K      &kp L     &kp SEMI   &kp APOS
 &kp LEFT_SHIFT  &kp Z      &kp X         &kp C             &kp V        &kp B           &mmv MOVE_RIGHT  &kp N            &kp M        &kp COMMA  &kp DOT   &kp FSLH   &mt RIGHT_SHIFT ENTER
-&mkp LCLK       &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 DELETE    &mkp RCLK        &lt 2 BACKSPACE  &lt 1 SPACE  &kp RGUI   &kp RALT  &kp RCTRL
+&mkp RCLK       &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 DELETE    &mkp LCLK        &lt 2 BACKSPACE  &lt 1 SPACE  &kp RGUI   &kp RALT  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -85,7 +85,7 @@
 
         layer_2 {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans        &kp KP_SLASH  &kp ASTERISK  &trans     &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans        &kp KP_SLASH  &kp ASTERISK  &kp MINUS  &trans
 &trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &trans
 &trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans
 &trans      &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans
