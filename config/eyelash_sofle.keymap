@@ -54,16 +54,28 @@
         bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
     };
 
+    LshA: LshA {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LSHA";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <180>;
+        flavor = "tap-unless-interrupted";
+        hold-trigger-on-release;
+        hold-trigger-key-positions = <27>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer0 {
             bindings = <
-&mt ESC GRAVE   &kp N1     &kp N2        &kp N3            &kp N4       &kp N5          &mmv MOVE_UP     &kp N6           &kp N7       &kp N8     &kp N9    &kp N0     &kp BACKSPACE
-&kp TAB         &kp Q      &kp W         &kp E             &kp R        &kp T           &mmv MOVE_DOWN   &kp Y            &kp U        &kp I      &kp O     &kp P      &kp BSLH
-&td_caps        &kp A      &kp S         &kp D             &kp F        &kp G           &mmv MOVE_LEFT   &kp H            &kp J        &kp K      &kp L     &kp SEMI   &kp APOS
-&kp LEFT_SHIFT  &kp Z      &kp X         &kp C             &kp V        &kp B           &mmv MOVE_RIGHT  &kp N            &kp M        &kp COMMA  &kp DOT   &kp FSLH   &mt RIGHT_SHIFT ENTER
-&mkp RCLK       &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 DELETE    &mkp LCLK        &lt 2 BACKSPACE  &lt 1 SPACE  &kp RGUI   &kp RALT  &kp RCTRL
+&kp GRAVE  &kp N1         &kp N2         &kp N3            &kp N4            &kp N5          &mmv MOVE_UP     &kp N6           &kp N7           &kp N8      &kp N9       &kp N0     &kp BACKSPACE
+&kp TAB    &kp Q          &kp W          &kp E             &kp R             &kp T           &mmv MOVE_DOWN   &kp Y            &kp U            &kp I       &kp O        &kp P      &kp BSLH
+&kp ESC    &LshA LSHFT A  &LshA LCTRL S  &LshA LALT D      &LshA LEFT_GUI F  &kp G           &mmv MOVE_LEFT   &kp H            &mt RIGHT_GUI J  &mt RALT K  &mt RCTRL L  &kp SEMI   &kp APOS
+&td_caps   &kp Z          &kp X          &kp C             &kp V             &kp B           &mmv MOVE_RIGHT  &kp N            &kp M            &kp COMMA   &kp DOT      &kp FSLH   &mt RIGHT_SHIFT ENTER
+&mkp RCLK  &kp LCTRL      &kp LEFT_ALT   &kp LEFT_COMMAND  &lt 1 SPACE       &lt 2 DELETE    &mkp LCLK        &lt 2 BACKSPACE  &lt 1 SPACE      &kp SPACE   &kp RALT     &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
