@@ -5,8 +5,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -87,11 +85,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE  &kp N1         &kp N2         &kp N3            &kp N4            &kp N5          &mmv MOVE_UP     &kp N6           &kp N7              &kp N8         &kp N9          &kp N0             &kp BACKSPACE
-&kp TAB    &kp Q          &kp W          &kp E             &kp R             &kp T           &mmv MOVE_DOWN   &kp Y            &kp U               &kp I          &kp O           &kp P              &kp BSLH
-&kp ESC    &LshA LSHFT A  &LshA LCTRL S  &LshA LALT D      &LshA LEFT_GUI F  &kp G           &mmv MOVE_LEFT   &kp H            &Rhrms RIGHT_GUI J  &Rhrms RALT K  &Rhrms RCTRL L  &Rhrms RSHFT SEMI  &kp APOS
-&td_caps   &kp Z          &kp X          &kp C             &kp V             &kp B           &mmv MOVE_RIGHT  &kp N            &kp M               &kp COMMA      &kp DOT         &kp FSLH           &mt RIGHT_SHIFT ENTER
-&mkp RCLK  &kp LCTRL      &kp LEFT_ALT   &kp LEFT_COMMAND  &lt 1 SPACE       &lt 2 DELETE    &mkp LCLK        &lt 2 BACKSPACE  &lt 1 SPACE         &kp SPACE      &kp RALT        &kp RCTRL
+&kp GRAVE  &kp N1         &kp N2         &kp N3            &kp N4            &kp N5          &mmv MOVE_UP     &kp N6           &kp N7              &kp N8              &kp N9          &kp N0             &kp BACKSPACE
+&kp TAB    &kp Q          &kp W          &kp E             &kp R             &kp T           &mmv MOVE_DOWN   &kp Y            &kp U               &kp I               &kp O           &kp P              &kp BSLH
+&kp ESC    &LshA LSHFT A  &LshA LCTRL S  &LshA LEFT_GUI D  &LshA LEFT_ALT F  &kp G           &mmv MOVE_LEFT   &kp H            &Rhrms RIGHT_ALT J  &Rhrms RIGHT_GUI K  &Rhrms RCTRL L  &Rhrms RSHFT SEMI  &kp APOS
+&td_caps   &kp Z          &kp X          &kp C             &kp V             &kp B           &mmv MOVE_RIGHT  &kp N            &kp M               &kp COMMA           &kp DOT         &kp FSLH           &mt RIGHT_SHIFT ENTER
+&mkp RCLK  &kp LCTRL      &kp LEFT_ALT   &kp LEFT_COMMAND  &lt 1 SPACE       &lt 2 DELETE    &mkp LCLK        &lt 2 BACKSPACE  &lt 1 SPACE         &kp SPACE           &kp RALT        &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
